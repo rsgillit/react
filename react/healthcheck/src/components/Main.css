@@ -1,0 +1,37 @@
+.HomePage {
+    text-align: center;
+    padding: 20px;
+}
+
+article {
+    display:grid;;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 20px;
+    /* grid-auto-rows: minmax(5px, auto); */
+    align-items: center;
+    text-align: center;
+    width : 60%;
+    margin: 0 auto;
+}
+
+section {
+    background-color: black;
+    color: white;
+    /* height: 200px; */
+    text-align: center;
+    /* vertical-align: middle; */
+    border-radius: 10px;
+    font-size: 200%;
+    transition: transform 0.5s;
+    box-shadow: 2px 2px 7px rgb(126, 91, 91);
+
+}
+
+section div {
+    padding: 25%;
+}
+
+section:hover {
+    transform: translate(-2px, -2px);
+    cursor: pointer;
+}
