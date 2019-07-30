@@ -21,7 +21,7 @@ section {
     text-align: center;
     /* vertical-align: middle; */
     border-radius: 10px;
-    font-size: 200%;
+    font-size: 170%;
     transition: transform 0.5s;
     box-shadow: 2px 2px 7px rgb(126, 91, 91);
 
@@ -35,3 +35,10 @@ section:hover {
     transform: translate(-2px, -2px);
     cursor: pointer;
 }
+
+ 
+/* .div-expresspayHeartbeats {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+} */

@@ -1,28 +1,26 @@
 import React from 'react';
 
 const ExpresspayHBDiv = (props) => {
-    
-    // const list = props.urlList.map((url) => {
-    //     return (
-    //         <div key={url.num} >
-    //             <span>{url.num}</span>
-    //             <span>{url.App}</span>
-    //             <span>{url.url}</span>
-    //             <span>{url.isOn}</span>
-    //             <span>{url.finalstatus}</span>
-    //         </div>
-            
-    //     );
-    // });
-    
-    return (
-            <div className="div-expresspayhbdiv"> 
-                <span>{props.url.num}</span>
-                <span>{props.url.App}</span>
-                <span>{props.url.url}</span>
-                <span>{props.url.isOn}</span>
-                <span>{props.url.finalstatus}</span>
-            </div>
+
+    if(props.url.finalstatus1 === 'Fail'){
+        return (
+                    <tr className="table failure">
+                    <td>{props.url.num}</td>
+                    <td>{props.url.App}</td>
+                    <td>{props.url.url}</td>
+                    <td>{props.url.isOn}</td>
+                    <td>{props.url.finalstatus1}</td>
+            </tr>
+        );
+    }
+   return (
+        <tr >
+                <td>{props.url.num}</td>
+                <td>{props.url.App}</td>
+                <td>{props.url.url}</td>
+                <td>{props.url.isOn}</td>
+                <td>{props.url.finalstatus1}</td>
+        </tr>
         );
     }
      

@@ -6,6 +6,7 @@ import Config from './Config';
 class NavBar extends React.Component {
     constructor(props){
         super(props);
+        this.state = { active: props.active};
     }
 
     render() {

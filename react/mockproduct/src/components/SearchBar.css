@@ -1,0 +1,15 @@
+input {
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 0;
+    padding-left: 4px;
+}
+
+label {
+    display: inline-block;
+    padding-left : 25px;
+}
+
+.search-bar {
+    border: 1px solid black;
+}
